@@ -1,0 +1,21 @@
+﻿<Window x:Class="Laboratorium9.OknoStudent"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratorium9"
+        mc:Ignorable="d"
+        Title="Edytowanie Studenta" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="ImieT" HorizontalAlignment="Left" Height="80" Margin="226,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" FontSize="20" VerticalContentAlignment="Center" Tag=""/>
+        <TextBox x:Name="NazwiskoT" HorizontalAlignment="Left" Height="80" Margin="226,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" FontSize="20" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="NrT" HorizontalAlignment="Left" Height="80" Margin="226,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" FontSize="20" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="WydzialT" HorizontalAlignment="Left" Height="80" Margin="226,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" FontSize="20" VerticalContentAlignment="Center"/>
+        <Button x:Name="PotwierdzenieB" Content="OK" HorizontalAlignment="Left" Height="52" Margin="645,361,0,0" VerticalAlignment="Top" Width="120" FontSize="20" Click="PotwierdzenieB_Click"/>
+        <Label x:Name="Limie" Content="Imie:" HorizontalAlignment="Left" Height="40" Margin="10,32,0,0" VerticalAlignment="Top" Width="211" FontSize="20" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Lnazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Height="40" Margin="10,115,0,0" VerticalAlignment="Top" Width="211" FontSize="20" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Lnr" Content="Nr Indeksu:" HorizontalAlignment="Left" Height="40" Margin="10,200,0,0" VerticalAlignment="Top" Width="211" FontSize="20" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Lwydzial" Content="Wydzial:" HorizontalAlignment="Left" Height="40" Margin="10,285,0,0" VerticalAlignment="Top" Width="211" FontSize="20" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
+

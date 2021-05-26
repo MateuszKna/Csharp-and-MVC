@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Laboratorium6.Ssaki">
+    <Position X="10.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABACAAAAAAAAAAAACAQAAAAAAAAAAA=</HashCode>
+      <FileName>ssaki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Ptaki">
+    <Position X="13" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAABACAAAAAAAAABAAAAQAAAUAAAAAAA=</HashCode>
+      <FileName>ptaki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Gady">
+    <Position X="15.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABACAAAAAAAAAAAAIAQAAAAAAAAAAA=</HashCode>
+      <FileName>gady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Klatka">
+    <Position X="19.5" Y="4.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQABACEAAAAAAAAAAAAAIAAAAIAAAgiA=</HashCode>
+      <FileName>Klatka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Opiekun">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAIAAAADAAAAAAAAAAAAAAAAAAAAAAACAAgA=</HashCode>
+      <FileName>Opiekun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Zwierzeta">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAABAIAAABCAAAAAAAAAAAACAAAAAgAAAAAAgA=</HashCode>
+      <FileName>Zwierzeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorium6.Dyrekcja">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAASAAAAAAAAAAACAAgAAgAAAAEAAAYAAAAAAAEgAA=</HashCode>
+      <FileName>Dyrekcja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

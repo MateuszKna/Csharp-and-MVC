@@ -1,0 +1,35 @@
+﻿<Window x:Name="Kalkulator1" x:Class="KalkulatorLab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KalkulatorLab7"
+        mc:Ignorable="d"
+        Title="Kalkulator" Height="690" Width="476" MinWidth="475" MinHeight="680" Margin="0,0,0,0" HorizontalContentAlignment="Left" MaxWidth="476" MaxHeight="681">
+    <Grid x:Name="Kalkulator" HorizontalAlignment="Center" VerticalAlignment="Top" Height="790" Width="474" Margin="0,10,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="466"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="B7" Content="7" HorizontalAlignment="Left" Margin="12,270,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B7_Click"/>
+        <Button x:Name="B8" Content="8" HorizontalAlignment="Left" Margin="126,270,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B8_Click"/>
+        <Button x:Name="B4" Content="4" HorizontalAlignment="Left" Margin="12,358,0,0" VerticalAlignment="Top" Height="86" Width="110" FontSize="35" Click="B4_Click"/>
+        <Button x:Name="B5" Content="5" HorizontalAlignment="Left" Margin="126,358,0,0" VerticalAlignment="Top" Height="86" Width="110" FontSize="35" Click="B5_Click"/>
+        <Button x:Name="B1" Content="1" HorizontalAlignment="Left" Margin="12,451,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B1_Click"/>
+        <Button x:Name="B2" Content="2" HorizontalAlignment="Left" Margin="126,451,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B2_Click"/>
+        <Button x:Name="Bprze" Content="," HorizontalAlignment="Left" Margin="12,542,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bprze_Click"/>
+        <Button x:Name="B0" Content="0" HorizontalAlignment="Left" Margin="126,542,0,0" VerticalAlignment="Top" Height="85" Width="224" FontSize="35" Click="B0_Click"/>
+        <TextBox x:Name="pwynik" HorizontalAlignment="Left" Height="121" Margin="9,45,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" FontSize="90" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <Button x:Name="B9" Content="9" HorizontalAlignment="Left" Margin="241,270,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B9_Click"/>
+        <Button x:Name="B6" Content="6" HorizontalAlignment="Left" Margin="241,358,0,0" VerticalAlignment="Top" Height="86" Width="110" FontSize="35" Click="B6_Click"/>
+        <Button x:Name="B3" Content="3" HorizontalAlignment="Left" Margin="241,451,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="B3_Click"/>
+        <Button x:Name="Bwynik" Content="=" HorizontalAlignment="Left" Margin="356,542,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bwynik_Click"/>
+        <Button x:Name="Bmno" Content="x" HorizontalAlignment="Left" Margin="356,270,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bmno_Click"/>
+        <Button x:Name="Bminus" Content="-" HorizontalAlignment="Left" Margin="356,358,0,0" VerticalAlignment="Top" Height="86" Width="110" FontSize="35" Click="Bminus_Click"/>
+        <Button x:Name="Bplus" Content="+" HorizontalAlignment="Left" Margin="356,451,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bplus_Click"/>
+        <Button x:Name="Bdz" Content="/" HorizontalAlignment="Left" Margin="356,180,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bdz_Click"/>
+        <Button x:Name="Bc" Content="C" HorizontalAlignment="Left" Margin="12,180,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bc_Click"/>
+        <Button x:Name="Bpier" Content="√" HorizontalAlignment="Left" Margin="241,180,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bpier_Click"/>
+        <Button x:Name="Bpot" Content="x²" HorizontalAlignment="Left" Margin="126,180,0,0" VerticalAlignment="Top" Height="85" Width="110" FontSize="35" Click="Bpot_Click"/>
+        <Label x:Name="historia" Content="" HorizontalAlignment="Left" Height="40" Margin="13,0,0,0" VerticalAlignment="Top" Width="452" HorizontalContentAlignment="Right" FontSize="20"/>
+    </Grid>
+</Window>
